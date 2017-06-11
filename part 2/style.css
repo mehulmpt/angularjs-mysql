@@ -1,0 +1,50 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: 0;
+}
+
+body {
+	font-family: calibri;
+}
+
+div#mainContent {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+div#buttons button {
+    font-size: 30px;
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #eee;
+    border: 0;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px #cbcbcb;
+}
+
+div#buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+div.input button {
+    width: 100%;
+    font-size: 20px;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+div.input {
+    margin: 15px;
+}
+
+div.input input {
+    padding: 10px 15px;
+    font-size: 20px;
+}
